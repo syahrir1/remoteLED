@@ -27,12 +27,12 @@ $(document).ready(function(){
   $(".lightButton").click(function(){
     var firebaseRef = firebase.database().ref().child("ledStatus");
 
-    if(ledStatus == 1){
+    if(ledStatus == "1"){
       firebaseRef.set("0");
-      ledStatus = 0;
+      ledStatus = "0";
     } else {
       firebaseRef.set("1");
-      ledStatus = 1;
+      ledStatus = "1";
     }
   });
 });
