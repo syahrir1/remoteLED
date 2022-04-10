@@ -2,12 +2,12 @@
 //The project has been deleted in firebase
 //fill in your own config info 
 var config = {
-  apiKey: "RiNAmxu8eSRBWxk2ovfzEaXMmH38yhiOFmitkkUX",
-  authDomain: "barubelajar-2459c.firebaseio.com",
-  databaseURL: "https://barubelajar-2459c.firebaseio.com",
-  projectId: "barubelajar-2459c",
-  storageBucket: "barubelajar-2459c.appspot.com",
-  messagingSenderId: "522082534403"
+  apiKey: "AIzaSyAKS5wHevxhIGXt2YcTOqWtWFjk_XXmlzE",
+  authDomain: "test-firebase-eea1d.firebaseapp.com",
+  databaseURL: "https://test-firebase-eea1d-default-rtdb.firebaseio.com",
+  projectId: "test-firebase-eea1d",
+  storageBucket: "test-firebase-eea1d.appspot.com",
+  messagingSenderId: "509095865784"
 };
 firebase.initializeApp(config);
 
